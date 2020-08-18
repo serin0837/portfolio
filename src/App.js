@@ -6,6 +6,8 @@ import HomePage from "./component/HomePage";
 import AboutMe from "./component/AboutMe";
 import Project from "./component/Project";
 import Contact from "./component/Contact";
+import Footer from "./component/Footer";
+
 function App() {
   return (
     <div className="App">
@@ -17,6 +19,8 @@ function App() {
           <Contact path="/contact"></Contact>
         </Router>
       </Nav>
+      <HomePage />
+      <Footer />
     </div>
   );
 }
