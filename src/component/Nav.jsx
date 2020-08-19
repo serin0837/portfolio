@@ -1,8 +1,9 @@
 import React from "react";
 import { Link } from "@reach/router";
+
 const Nav = () => {
   return (
-    <nav>
+    <nav className="navbar">
       <Link to="/">Homepage</Link>
       <Link to="/about-me">About Me</Link>
       <Link to="/project">Project</Link>
