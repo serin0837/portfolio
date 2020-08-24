@@ -36,13 +36,24 @@ a {
   width: 100%;
   box-shadow: 0 2px 55px 3px rgba(0, 0, 0, 0.1);
   z-index: 10;
-  background-color: white;
+  background-color: #eee;
+}
+.logo {
+  height: 70px;
+}
+
+.logo:hover {
+  box-shadow: 5px 5px 1px 1px black;
+}
+
+.project {
+  height: 50px;
 }
 
 .navbar a {
-  background-color: #09bc8a;
-  margin: 1rem 2rem 1rem 2rem;
+  margin: 1rem;
   padding: 1rem;
+  height: 30px;
 }
 
 /* welcome section */
@@ -64,16 +75,16 @@ a {
 .welcome-section-nav :hover {
   background-color: #09bc8a;
   box-shadow: 5px 5px 1px 1px black;
-  color: white;
+  color: black;
 }
 
 .welcome-section-nav a {
   display: block;
-  background-color: white;
   padding: 1rem 0;
   margin: 3rem;
   width: 10rem;
   color: #09bc8a;
+  font-weight: 500;
 }
 
 .connect {

@@ -10,7 +10,7 @@ const HomePage = () => {
         </div>
         <div className="welcome-section-nav">
           <Link className="about-me" to="/about-me">
-            About Me
+            &gt; About Me
           </Link>
         </div>
         <div className="connect">

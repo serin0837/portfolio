@@ -7,3 +7,5 @@
 - router 는 실제로 그 url로 이동하게 한다.
 
 * file path
+
+- tool tip how to??
