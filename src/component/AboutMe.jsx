@@ -5,8 +5,13 @@ const AboutMe = () => {
     <div className="main">
       <section id="about-me" className="about-me-section">
         <h2>My name is serin.</h2>
-
-        <p>
+        <a
+          href="file:///C:/Users/serin/OneDrive/Desktop/cv%20developer/CV%20developer.pdf"
+          download
+        >
+          &gt; <i>download my CV!</i>
+        </a>
+        <p id="background">
           I am originally from Korea and arrived in Manchester March, 2019. I
           came to the UK as it has been my dream since I was a teenager work and
           live here. In Korea I studied Economics at University and I then
@@ -15,7 +20,7 @@ const AboutMe = () => {
           job in Korea and came all the way here to the UK.
         </p>
 
-        <p>
+        <p id="interest">
           My interest in coding first started last year through a conversation I
           had with one of my customers who works in the IT industry. We talked
           about what coding was and how quickly the industry is growing.
@@ -30,9 +35,6 @@ const AboutMe = () => {
           graduated bootcamp in Northcoders, and since then I have been kept
           studying about software development.
         </p>
-
-        <p>put cv here</p>
-        <button>download my CV</button>
       </section>
     </div>
   );

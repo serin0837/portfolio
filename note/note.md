@@ -9,3 +9,10 @@
 * file path
 
 - tool tip how to??
+
+height: calc(100%-6.8rem);
+width:100%;
+object-fit:cover;
+
+calc?
+object0-fit
