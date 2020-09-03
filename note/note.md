@@ -16,3 +16,24 @@ object-fit:cover;
 
 calc?
 object0-fit
+
+- <!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s;
+}
+
+div:hover {
+width: 300px;
+}
+</style>
+
+</head>
+<body>
+
+hover 할떄 가로로 길이 길어짐! 조아

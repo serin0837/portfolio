@@ -1,6 +1,11 @@
+/*--global--*/
+:root {
+  --main-green: #09bc8a;
+  --main-pink: #ead1ca;
+}
 .App {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   display: grid;
   height: 100vh;
   width: 100%;
@@ -24,8 +29,10 @@ a {
   color: black;
 }
 
-/*--global--*/
-
+img {
+  display: block;
+}
+/*--nav--*/
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -38,6 +45,7 @@ a {
   z-index: 10;
   background-color: #eee;
 }
+
 .logo {
   height: 70px;
 }
@@ -46,18 +54,21 @@ a {
   box-shadow: 5px 5px 1px 1px black;
 }
 
-.project {
-  height: 50px;
-}
-
 .navbar a {
   margin: 1rem;
   padding: 1rem;
   height: 30px;
 }
 
+@media (max-width: 28.75em) {
+  .logo {
+    height: 50px;
+  }
+}
+
 /* welcome section */
 .welcome-section {
+  margin-top: 6rem;
   background-color: #eee;
   display: flex;
   width: 100%;
@@ -65,11 +76,11 @@ a {
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 75vh;
+  height: 80vh;
 }
 
 .welcome-section h1 {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 .welcome-section-nav :hover {
@@ -79,16 +90,20 @@ a {
 }
 
 .welcome-section-nav a {
+  font-size: 2.3rem;
+
   display: block;
   padding: 1rem 0;
   margin: 3rem;
-  width: 10rem;
+  width: 15rem;
   color: #09bc8a;
   font-weight: 500;
 }
 
 .connect {
-  margin-top: 5rem;
+  font-size: 2.2rem;
+  margin-top: 7rem;
+  font-family: "Barlow Semi Condensed", sans-serif;
 }
 
 /* footer */
@@ -125,7 +140,7 @@ footer p {
 /* about me section */
 
 .about-me-section {
-  background-color: #eee;
+  background-color: var(--main-pink);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -134,7 +149,9 @@ footer p {
 }
 
 .about-me-section h2 {
-  font-size: 3rem;
+  color: var(--main-green);
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 4.5rem;
   margin-top: 10vh;
   padding: 3rem;
 }
@@ -144,29 +161,40 @@ footer p {
 }
 
 .about-me-section p {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin: 5rem 10rem 0rem 10rem;
   text-align: justify;
 }
 
-.about-me-section #interest {
+.about-me-section #career {
   margin-bottom: 20rem;
 }
 
 /* ------project section */
 .projects-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  margin: 5rem 10rem;
-  padding: 10rem 2em;
+  background-color: #eee;
+}
+.projects-section-header {
+  text-align: center;
+  margin-top: 10rem;
+  padding: 5rem 2rem;
+  font-size: 2.5rem;
 }
 
 .projects-grid {
   display: grid;
-  grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   grid-gap: 4rem;
-  width: 100%;
-  margin: 0 auto;
-  margin-bottom: 6rem;
+  margin: 0rem auto;
+  padding: 0rem 5.5em;
+  margin-bottom: 10rem;
+  padding-bottom: 15rem;
 }
 
 @media (max-width: 30.625em) {
@@ -179,29 +207,46 @@ footer p {
 }
 
 .each-project {
-  border: #09bc8a solid 3px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  background-color: var(--main-pink);
+  border: black solid 2px;
+  /* border: #09bc8a solid 3px; */
 }
 
 .each-project:hover {
   box-shadow: 5px 5px 2px 2px black;
 }
 
-/*below not working*/
-@media (max-width: 30.625em) {
-  .each-project {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-  }
-}
 .project-image {
-  padding: 1rem;
+  height: 250px;
   width: 100%;
   object-fit: cover;
 }
 
 .project-title {
-  font-size: 2rem;
+  font-size: 3rem;
   padding: 1.5rem 0.5rem;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  color: var(--main-green);
+}
+
+.project-explain {
+  padding: 2rem;
+}
+
+.each-project button {
+  font-style: inherit;
+  font-size: inherit;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: var(--main-green);
+  border: black solid 2px;
+}
+
+.each-project .code {
+  color: var(--main-green);
+  transition: color 0.3s ease-out;
+}
+
+.each-project button:hover .code {
+  color: var(--main-pink);
 }

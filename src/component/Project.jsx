@@ -7,29 +7,35 @@ const Project = () => {
   return (
     <div className="main">
       <section className="projects-section">
+        <h2 className="projects-section-header">
+          These are my projects and I am still working on.
+        </h2>
+
         <div className="projects-grid">
           <div className="each-project">
             <div>
               <img className="project-image" src={project1} alt="project1" />
             </div>
-            <div className>
-              <h3 className="project-title">word-card-app</h3>
+            <div className="project-explain">
+              <h3 className="project-title">Word card application</h3>
               <p>Front end react application</p>
               <p>
                 You can add word cards that you want to memorize and you can
                 remove word cards if you know that word. (still on developing)
               </p>
-              <a
-                href="https://github.com/serin0837/word-list-app"
-                target="_blank"
-                className="projects"
-              >
-                <button>
+
+              <button>
+                <a
+                  href="https://github.com/serin0837/word-list-app"
+                  target="_blank"
+                  className="projects"
+                  rel="noopener noreferrer"
+                >
                   <span className="code">&lt;</span>
                   code
                   <span className="code">&#47;&gt;</span>
-                </button>
-              </a>
+                </a>
+              </button>
             </div>
           </div>
 
@@ -37,17 +43,23 @@ const Project = () => {
             <div>
               <img className="project-image" src={project2} alt="project2" />
             </div>
-            <div>
+            <div className="project-explain">
               <h3 className="project-title">Portfolio website</h3>
               <p>My first portfolio website</p>
               <p>explain</p>
-              <a href="#" target="_blank" className="projects">
-                <button>
+
+              <button>
+                <a
+                  href="https://github.com/serin0837/portfolio"
+                  target="_blank"
+                  className="projects"
+                  rel="noopener noreferrer"
+                >
                   <span className="code">&lt;</span>
                   code
                   <span className="code">&#47;&gt;</span>
-                </button>
-              </a>
+                </a>
+              </button>
             </div>
           </div>
 
@@ -55,17 +67,23 @@ const Project = () => {
             <div>
               <img className="project-image" src={project3} alt="project3" />
             </div>
-            <div>
+            <div className="project-explain">
               <h3 className="project-title">Pokemon Game</h3>
               <p>Terminal Pokemon game</p>
               <p>explain</p>
-              <a href="#" target="_blank" className="projects">
-                <button>
+
+              <button>
+                <a
+                  href="https://github.com/serin0837/pokemon"
+                  target="_blank"
+                  className="projects"
+                  rel="noopener noreferrer"
+                >
                   <span className="code">&lt;</span>
                   code
                   <span className="code">&#47;&gt;</span>
-                </button>
-              </a>
+                </a>
+              </button>
             </div>
           </div>
         </div>
