@@ -2,6 +2,7 @@ import React from "react";
 import project1 from "../img/word-card.PNG";
 import project2 from "../img/portfolio.PNG";
 import project3 from "../img/pokemon.PNG";
+import project4 from "../img/world countries.PNG";
 
 const Project = () => {
   return (
@@ -75,6 +76,30 @@ const Project = () => {
               <button>
                 <a
                   href="https://github.com/serin0837/pokemon"
+                  target="_blank"
+                  className="projects"
+                  rel="noopener noreferrer"
+                >
+                  <span className="code">&lt;</span>
+                  code
+                  <span className="code">&#47;&gt;</span>
+                </a>
+              </button>
+            </div>
+          </div>
+
+          <div className="each-project">
+            <div>
+              <img className="project-image" src={project4} alt="project4" />
+            </div>
+            <div className="project-explain">
+              <h3 className="project-title">World Countries</h3>
+              <p>World Countries with backend</p>
+              <p>explain</p>
+
+              <button>
+                <a
+                  href="https://github.com/serin0837/world-traveller"
                   target="_blank"
                   className="projects"
                   rel="noopener noreferrer"
