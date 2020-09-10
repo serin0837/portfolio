@@ -10,7 +10,7 @@ const Footer = () => {
           rel="noopener noreferrer"
           className="btn contact-details"
         >
-          <i className="fa fa-twitter"></i>
+          <i className="footer fa fa-twitter"></i>
         </a>
         <a
           href="https://www.linkedin.com/in/serin-jeon/"
@@ -18,7 +18,7 @@ const Footer = () => {
           rel="noopener noreferrer"
           className="btn contact-details"
         >
-          <i className="fa fa-linkedin"></i>
+          <i className="footer fa fa-linkedin"></i>
         </a>
         <a
           href="https://github.com/serin0837"
@@ -26,7 +26,7 @@ const Footer = () => {
           rel="noopener noreferrer"
           className="btn contact-details"
         >
-          <i className="fa fa-github"></i>
+          <i className="footer fa fa-github"></i>
         </a>
 
         <a
@@ -38,7 +38,7 @@ const Footer = () => {
           rel="noopener noreferrer"
           className="btn contact-details"
         >
-          <i className="fa fa-envelope"></i>
+          <i className="footer fa fa-envelope"></i>
         </a>
       </div>
 

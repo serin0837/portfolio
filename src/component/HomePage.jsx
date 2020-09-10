@@ -13,12 +13,6 @@ const HomePage = () => {
             &gt; About Me
           </Link>
         </div>
-        <div className="connect">
-          <p>
-            <i> Connect with me</i>
-            <span id="arrow-down"> &#8628; </span>
-          </p>
-        </div>
       </section>
     </div>
   );

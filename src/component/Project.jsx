@@ -1,8 +1,9 @@
 import React from "react";
-import project1 from "../img/word-card.PNG";
-import project2 from "../img/portfolio.PNG";
-import project3 from "../img/pokemon.PNG";
-import project4 from "../img/world countries.PNG";
+import wordCard from "../img/word-card.PNG";
+import portfolio from "../img/portfolio.PNG";
+import pokemon from "../img/pokemon.PNG";
+import worldCountries from "../img/world countries.PNG";
+import damso from "../img/damso.PNG";
 
 const Project = () => {
   return (
@@ -15,7 +16,11 @@ const Project = () => {
         <div className="projects-grid">
           <div className="each-project">
             <div>
-              <img className="project-image" src={project1} alt="project1" />
+              <img
+                className="project-image"
+                src={wordCard}
+                alt="wordcard-project"
+              />
             </div>
             <div className="project-explain">
               <h3 className="project-title">Word card application</h3>
@@ -24,7 +29,14 @@ const Project = () => {
                 You can add word cards that you want to memorize and you can
                 remove word cards if you know that word. (still on developing)
               </p>
-
+              <div>
+                <h4>Tech stack</h4>
+                <p>
+                  <i className="fa fa-html5"></i>HTML5
+                  <i className="fa fa-css3" aria-hidden="true"></i>CSS
+                  <i className="fab fa-js"></i>
+                </p>
+              </div>
               <button>
                 <a
                   href="https://github.com/serin0837/word-list-app"
@@ -33,7 +45,20 @@ const Project = () => {
                   rel="noopener noreferrer"
                 >
                   <span className="code">&lt;</span>
-                  code
+                  <i className="fa fa-github" aria-hidden="true"></i> code
+                  <span className="code">&#47;&gt;</span>
+                </a>
+              </button>
+              {/* live not work yet */}
+              <button>
+                <a
+                  href="https://github.com/serin0837/word-list-app"
+                  target="_blank"
+                  className="projects"
+                  rel="noopener noreferrer"
+                >
+                  <span className="code">&lt;</span>
+                  <i className="fa fa-laptop" aria-hidden="true"></i> live
                   <span className="code">&#47;&gt;</span>
                 </a>
               </button>
@@ -42,11 +67,11 @@ const Project = () => {
 
           <div className="each-project">
             <div>
-              <img className="project-image" src={project2} alt="project2" />
+              <img className="project-image" src={portfolio} alt="portfolio" />
             </div>
             <div className="project-explain">
               <h3 className="project-title">Portfolio website</h3>
-              <p>My first portfolio website</p>
+              <p>I created </p>
               <p>explain</p>
 
               <button>
@@ -57,31 +82,20 @@ const Project = () => {
                   rel="noopener noreferrer"
                 >
                   <span className="code">&lt;</span>
-                  code
+                  <i className="fa fa-github" aria-hidden="true"></i> code
                   <span className="code">&#47;&gt;</span>
                 </a>
               </button>
-            </div>
-          </div>
-
-          <div className="each-project">
-            <div>
-              <img className="project-image" src={project3} alt="project3" />
-            </div>
-            <div className="project-explain">
-              <h3 className="project-title">Pokemon Game</h3>
-              <p>Terminal Pokemon game</p>
-              <p>explain</p>
 
               <button>
                 <a
-                  href="https://github.com/serin0837/pokemon"
+                  href="https://serin-jeon.heroku.com"
                   target="_blank"
                   className="projects"
                   rel="noopener noreferrer"
                 >
                   <span className="code">&lt;</span>
-                  code
+                  <i className="fa fa-laptop" aria-hidden="true"></i> live
                   <span className="code">&#47;&gt;</span>
                 </a>
               </button>
@@ -90,7 +104,52 @@ const Project = () => {
 
           <div className="each-project">
             <div>
-              <img className="project-image" src={project4} alt="project4" />
+              <img
+                className="project-image"
+                src={damso}
+                alt="teach-korean-website"
+              />
+            </div>
+            <div className="project-explain">
+              <h3 className="project-title">Teach Korean website</h3>
+              <p>Terminal Pokemon game</p>
+              <p>explain</p>
+
+              <button>
+                <a
+                  href="https://github.com/serin0837/damso_learnkorean"
+                  target="_blank"
+                  className="projects"
+                  rel="noopener noreferrer"
+                >
+                  <span className="code">&lt;</span>
+                  <i className="fa fa-github" aria-hidden="true"></i> code
+                  <span className="code">&#47;&gt;</span>
+                </a>
+              </button>
+
+              <button>
+                <a
+                  href="#"
+                  target="_blank"
+                  className="projects"
+                  rel="noopener noreferrer"
+                >
+                  <span className="code">&lt;</span>
+                  <i className="fa fa-laptop" aria-hidden="true"></i> live
+                  <span className="code">&#47;&gt;</span>
+                </a>
+              </button>
+            </div>
+          </div>
+
+          <div className="each-project">
+            <div>
+              <img
+                className="project-image"
+                src={worldCountries}
+                alt="world-countries"
+              />
             </div>
             <div className="project-explain">
               <h3 className="project-title">World Countries</h3>
@@ -100,6 +159,47 @@ const Project = () => {
               <button>
                 <a
                   href="https://github.com/serin0837/world-traveller"
+                  target="_blank"
+                  className="projects"
+                  rel="noopener noreferrer"
+                >
+                  <span className="code">&lt;</span>
+                  code
+                  <span className="code">&#47;&gt;</span>
+                </a>
+              </button>
+
+              <button>
+                <a
+                  href="#"
+                  target="_blank"
+                  className="projects"
+                  rel="noopener noreferrer"
+                >
+                  <span className="code">&lt;</span>
+                  <i className="fa fa-laptop" aria-hidden="true"></i> live
+                  <span className="code">&#47;&gt;</span>
+                </a>
+              </button>
+            </div>
+          </div>
+
+          <div className="each-project">
+            <div>
+              <img
+                className="project-image"
+                src={pokemon}
+                alt="pokemon-terminal-game"
+              />
+            </div>
+            <div className="project-explain">
+              <h3 className="project-title">Pokemon Game</h3>
+              <p>Command line Pokemon game</p>
+              <p>Pokemon game that you can play in your command line.</p>
+
+              <button>
+                <a
+                  href="https://github.com/serin0837/pokemon"
                   target="_blank"
                   className="projects"
                   rel="noopener noreferrer"

@@ -68,7 +68,7 @@ img {
 
 /* welcome section */
 .welcome-section {
-  margin-top: 10vh;
+  padding-top: 10vh;
   background-color: #eee;
   display: flex;
   width: 100%;
@@ -81,6 +81,7 @@ img {
 
 .welcome-section h1 {
   font-size: 4rem;
+  padding: 2rem;
 }
 
 .welcome-section-nav :hover {
@@ -100,12 +101,6 @@ img {
   font-weight: 500;
 }
 
-.connect {
-  font-size: 2.2rem;
-  margin-top: 7rem;
-  font-family: "Barlow Semi Condensed", sans-serif;
-}
-
 /* footer */
 footer {
   height: 30vh;
@@ -122,7 +117,7 @@ footer p {
   margin: 2rem;
 }
 
-.fa {
+.footer .fa {
   padding: 10px;
   font-size: 2.5rem;
   width: 32px;
@@ -132,7 +127,7 @@ footer p {
   margin: 5px 2px;
 }
 
-.fa:hover {
+.footer .fa:hover {
   color: white;
   background-color: #09bc8a;
   box-shadow: 5px 5px 1px 1px black;
@@ -167,13 +162,19 @@ footer p {
   text-align: justify;
 }
 
+@media (max-width: 28.75em) {
+  .about-me-section p {
+    margin: 5rem 2rem 0rem 2rem;
+    text-align: left;
+  }
+}
 .about-me-section #career {
-  margin-bottom: 20rem;
+  margin-bottom: 10rem;
 }
 
 /* ------project section */
 .projects-section {
-  width: 100%;
+  /* width: 100%; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -183,9 +184,9 @@ footer p {
 }
 .projects-section-header {
   text-align: center;
-  margin-top: 10rem;
+  margin-top: 6rem;
   padding: 5rem 7rem;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .projects-grid {
@@ -193,8 +194,7 @@ footer p {
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   grid-gap: 4rem;
   margin: 0rem auto;
-  padding: 0rem 5.5em;
-  margin-bottom: 5rem;
+  padding: 1rem 10rem;
 }
 
 @media (max-width: 30.625em) {
@@ -203,6 +203,7 @@ footer p {
   }
   .projects-grid {
     grid-template-columns: 1fr;
+    padding: 2rem;
   }
 }
 
@@ -212,12 +213,8 @@ footer p {
   /* border: #09bc8a solid 3px; */
 }
 
-.each-project:hover {
-  box-shadow: 5px 5px 2px 2px black;
-}
-
 .project-image {
-  height: 250px;
+  max-height: 250px;
   width: 100%;
   object-fit: cover;
 }
@@ -233,13 +230,22 @@ footer p {
   padding: 2rem;
 }
 
+.project-explain h4 {
+  color: var(--main-green);
+}
+
+.project-explain i {
+  height: 1rem;
+  font-style: inherit;
+}
 .each-project button {
   font-style: inherit;
   font-size: inherit;
   margin: 1rem;
   padding: 1rem;
+  border-radius: 2px;
   background-color: var(--main-green);
-  border: black solid 2px;
+  border: none;
 }
 
 .each-project .code {
@@ -249,4 +255,5 @@ footer p {
 
 .each-project button:hover .code {
   color: var(--main-pink);
+  font-weight: bold;
 }

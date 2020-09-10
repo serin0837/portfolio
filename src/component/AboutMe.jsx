@@ -40,14 +40,18 @@ const AboutMe = () => {
             🐓
           </span>
           Coding was not something I ever imagined my self doing and a subject I
-          had very little knowledge on until recently. However, after spending
-          time speaking with people from the industry, attending meet ups,
-          watching hours of youtube videos, studying via online classes and
-          practicing at home, I have found something that I am incredibly
-          passionate about. <br></br>I have recently graduated bootcamp in
-          Northcoders, and since then I have been kept studying about software
-          development and I am also doing 100days of code challenge in my
-          twitter. Now I am looking for my next journey as developer.
+          had very little knowledge on. However, after spending time speaking
+          with people from the industry, attending meet ups, watching hours of
+          youtube videos, studying via online classes and practicing at home, I
+          have found something that I am incredibly passionate about. Then I
+          decided to join full-time bootcamp, Northcoders. During 2 months in bootcamp
+          I gained knowledge of fundamental javascript, Test-driven
+          development, Object-oriented programming,RESTful API, CRUD operations.
+          In Northcoders, I only learnt about front-end side so since I graduated,
+          I was focus to teach myself about backend and study about Responsive web site with Freecodecamp where I get my certification.
+          and recapping a lot of things that I learn in bootcamp. To keep my routine Northcoders form 9 to 5 I am
+          also doing 100days of code challenge in my twitter. Now I am looking
+          for my next journey as developer. and I am ready to pour all my passion!!!✨
         </p>
       </section>
     </div>
