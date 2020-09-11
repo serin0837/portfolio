@@ -46,12 +46,26 @@ img {
   background-color: #eee;
 }
 
+.tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+}
+
 .logo {
   height: 70px;
 }
 
 .logo:hover {
   box-shadow: 5px 5px 1px 1px black;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
 
 .navbar a {
@@ -228,6 +242,7 @@ footer p {
 
 .project-explain {
   padding: 2rem;
+  text-align: justify;
 }
 
 .project-explain h4 {
