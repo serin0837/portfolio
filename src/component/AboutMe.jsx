@@ -6,7 +6,7 @@ const AboutMe = () => {
       <section id="about-me" className="about-me-section">
         <h2>My name is Serin.</h2>
         <a
-          href="file:///C:/Users/serin/OneDrive/Desktop/cv%20developer/CV%20developer.pdf"
+          href="https://docs.google.com/document/d/1_z816RemoA328WK8OxxGQGL1kZVdGSVGFd5MdmU2ZlE/edit?usp=sharing"
           download
         >
           &gt; <i>download my CV!</i>
@@ -15,8 +15,8 @@ const AboutMe = () => {
           <span role="img" aria-label="emoji">
             🐣
           </span>
-          I am originally from Korea. I came to the UK, Manchester as it has
-          been my dream since I was a teenager work and live here. In Korea, I
+          I am originally from Korea. I came to Manchester as it has been my
+          dream since I was a teenager to work and live in the UK. In Korea, I
           studied Economics at University and I then worked as an HR assistant
           for Hyundai for around 2 years. I am determined to make my dream come
           true so in February 2019 I quit my job in Korea and came all the way
@@ -28,9 +28,9 @@ const AboutMe = () => {
             🐤
           </span>
           My interest in coding first started last year through a conversation I
-          had with one of my customers who works in the IT industry. We talked
-          about what coding was and how quickly the industry is growing.
-          Following that conversation, I started to do my research into the
+          had with a customer at my bar job who works in the IT industry. We
+          talked about what coding was and how quickly the industry is growing.
+          Following that conversation, I started to do my own research into the
           field and joined meetups such as ‘code up’ and ‘code and stuff’. From
           there my interest grew and grew.
         </p>
@@ -39,21 +39,20 @@ const AboutMe = () => {
           <span role="img" aria-label="emoji">
             🐓
           </span>
-          Coding was not something I ever imagined my self doing and a subject I
+          Coding was not something I ever imagined myself doing and a subject I
           had very little knowledge on. However, after spending time speaking
           with people from the industry, attending meetups, watching hours of
           youtube videos, studying via online classes, and practicing at home, I
-          have found something that I am incredibly passionate about. Then I
-          decided to join a full-time boot camp, Northcoders. During 2 months in
-          boot camp, I gained knowledge of fundamental javascript, Test-driven
-          development, Object-oriented programming, RESTful API, CRUD
-          operations. In Northcoders, I only learned about the front-end side so
-          since I graduated, I was focus to teach myself about backend and study
-          about Responsive web site with Freecodecamp where I get my
-          certification. and recapping a lot of things that I learn in boot
-          camp. To keep my routine Northcoders form 9 to 5 I am also doing
-          100days of code challenge in my twitter. Now I am looking for my next
-          journey as a developer. and I am ready to pour all my passion!!!✨
+          have found something that I am incredibly passionate about. Recently I
+          joined a full-time boot camp, Northcoders. Over 2 months in boot camp,
+          I gained knowledge of fundamental javascript, Test-driven development,
+          Object-oriented programming, RESTful API and CRUD operations. In
+          Northcoders, our focus of study was front-end development so since
+          graduating my focus has been on learning backend and studying
+          Responsive web design with Freecodecamp, where I got my certification.
+          I am also doing the 100 days of code challenge on twitter.(Check to
+          see my journey in twitter!) Now I am looking for my next journey as a
+          developer.
         </p>
       </section>
     </div>

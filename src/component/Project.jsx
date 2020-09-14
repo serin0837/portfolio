@@ -12,6 +12,7 @@ const Project = () => {
         <h2 className="projects-section-header">
           These are my projects and I am still working on.
         </h2>
+        <p className="explain">Live button is not working at the moment.</p>
 
         <div className="projects-grid">
           <div className="each-project">
@@ -24,20 +25,23 @@ const Project = () => {
             </div>
             <h3 className="project-title">Word Card</h3>
             <div className="project-explain">
-              <p>A web application to make you easy to memorize the words. </p>
+              <p>A web application to help you memorize new words.</p>
               You can :
               <ul>
-                <li>Create your word card which want to memorize</li>
-                <li>Delete your word card that you remember</li>
-                <li>Create different language</li>
+                <li>
+                  Create your own word cards for new words which you want to
+                  memorize.
+                </li>
+                <li>Delete your word cards that you have memorized.</li>
+                <li>Create word cards in different languages.</li>
               </ul>
               <div className="project-tech">
                 <h4>Technologies</h4>
                 <ul>
-                  <li>Front end: Responsive web and built with react</li>
+                  <li>Front end: Responsive website and built with React.</li>
                   <li>
-                    Back end: server written down in Express which handle API
-                    requests
+                    Back end: Server written down in Express which handles API
+                    requests.
                   </li>
                 </ul>
               </div>
@@ -82,22 +86,26 @@ const Project = () => {
             <h3 className="project-title">World Countries</h3>
             <div className="project-explain">
               <p>
-                A web application to give you information about countries in the
-                world as I love to know about everything about different
-                countries.
+                A web application to give you information about different
+                countries in the world. This application combines my passion for
+                coding and travelling.
               </p>
               You can :
               <ul>
-                <li>Get information about countries depends on continent.</li>
+                <li>
+                  Discover interesting facts about different countries across
+                  the globe.
+                </li>
                 <li>Create your own imaginary countries.</li>
               </ul>
               <div className="project-tech">
                 <h4>Technologies</h4>
                 <ul>
                   <li>
-                    Front end: Responsive web and built with react and router
+                    Front end: Responsive website built with React, Router and
+                    Axios.
                   </li>
-                  <li>Back end: Server made with strapi</li>
+                  <li>Back end: Server made with Strapi.</li>
                 </ul>
               </div>
               <div className="project-button">
@@ -136,7 +144,9 @@ const Project = () => {
             </div>
             <h3 className="project-title">Serin Jeon</h3>
             <div className="project-explain">
-              <p>Personal Portfolio website give information about myself.</p>
+              <p>
+                The Personal portfolio website gives information about myself.
+              </p>
               You can :
               <ul>
                 <li>Get to know me.</li>
@@ -144,10 +154,9 @@ const Project = () => {
               </ul>
               <div className="project-tech">
                 <h4>Technologies</h4>
-
                 <ul>
                   <li>
-                    Front end: Responsive website built with react and router
+                    Front end: Responsive website built with React and Router.
                   </li>
                 </ul>
               </div>
@@ -190,13 +199,15 @@ const Project = () => {
             </div>
             <h3 className="project-title">Damso: Learn Korean</h3>
             <div className="project-explain">
-              <p>
-                A single web page about Korean teacher give information You can
-              </p>
+              <p>A single web page about my Korean tutoring.</p>
+              You can :
+              <ul>
+                <li>Get information about my classes.</li>
+              </ul>
               <div className="project-tech">
                 <h4>Technologies</h4>
                 <ul>
-                  <li>Front end: Responsive webpage with HTML and CSS</li>
+                  <li>Front end: Responsive webpage with HTML and CSS.</li>
                 </ul>
               </div>
               <div className="project-button">
@@ -240,12 +251,13 @@ const Project = () => {
             <div className="project-explain">
               <p>
                 Command line Pokemon game to play in your terminal. It was part
-                of my bootcamp to practive Javascript classes
+                of my bootcamp to practice Javascript classes.
               </p>
               <div className="project-tech">
                 <h4>Technologies</h4>
                 <ul>
-                  <li> Javascript, Inquirer, Tested with Jest</li>
+                  <li> Javascript and Inquirer.</li>
+                  <li>Tested with Jest.</li>
                 </ul>
               </div>
               <div className="project-button">
