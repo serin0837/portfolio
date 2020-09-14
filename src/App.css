@@ -64,7 +64,7 @@ img {
   box-shadow: 5px 5px 1px 1px black;
 }
 
-.tooltip:hover .tooltiptext {
+.logo:hover.tooltiptext {
   visibility: visible;
 }
 
@@ -235,14 +235,14 @@ footer p {
 
 .project-title {
   font-size: 3rem;
-  padding: 1.5rem 0.5rem;
+  padding-top: 1.5rem;
   font-family: "Barlow Semi Condensed", sans-serif;
   color: var(--main-green);
 }
 
 .project-explain {
   padding: 2rem;
-  text-align: justify;
+  text-align: left;
 }
 
 .project-explain h4 {
@@ -252,6 +252,15 @@ footer p {
 .project-explain i {
   height: 1rem;
   font-style: inherit;
+}
+
+.project-explain li {
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+.project-tech h4 {
+  margin: 2rem 0;
 }
 .each-project button {
   font-style: inherit;
@@ -271,4 +280,7 @@ footer p {
 .each-project button:hover .code {
   color: var(--main-pink);
   font-weight: bold;
+}
+.project-button {
+  text-align: center;
 }

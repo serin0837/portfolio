@@ -6,7 +6,7 @@ const Nav = () => {
   return (
     <nav className="navbar">
       <Link to="/">
-        <img src={logo} alt="logo" className="logo tooltip" />
+        <img src={logo} alt="logo" className="logo" />
         <span className="tooltiptext">Let's go back to homepage</span>
       </Link>
       <Link className="navbar-project" to="/project">
