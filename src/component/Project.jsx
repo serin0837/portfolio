@@ -239,56 +239,6 @@ const Project = () => {
               </div>
             </div>
           </div>
-          <div className="each-project">
-            <div>
-              <img
-                className="project-image"
-                src={pokemon}
-                alt="pokemon-terminal-game"
-              />
-            </div>
-            <h3 className="project-title">Pokemon Game</h3>
-            <div className="project-explain">
-              <p>
-                Command line Pokemon game to play in your terminal. It was part
-                of my bootcamp to practice Javascript classes.
-              </p>
-              <div className="project-tech">
-                <h4>Technologies</h4>
-                <ul>
-                  <li> Javascript and Inquirer.</li>
-                  <li>Tested with Jest.</li>
-                </ul>
-              </div>
-              <div className="project-button">
-                <button>
-                  <a
-                    href="https://github.com/serin0837/pokemon"
-                    target="_blank"
-                    className="projects"
-                    rel="noopener noreferrer"
-                  >
-                    <span className="code">&lt;</span>
-                    <i className="fa fa-github" aria-hidden="true"></i> code
-                    <span className="code">&#47;&gt;</span>
-                  </a>
-                </button>
-
-                <button>
-                  <a
-                    href="https://github.com/serin0837/word-list-app"
-                    target="_blank"
-                    className="projects"
-                    rel="noopener noreferrer"
-                  >
-                    <span className="code">&lt;</span>
-                    <i className="fa fa-laptop" aria-hidden="true"></i> live
-                    <span className="code">&#47;&gt;</span>
-                  </a>
-                </button>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
     </div>
