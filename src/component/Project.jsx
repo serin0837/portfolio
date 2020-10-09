@@ -1,7 +1,6 @@
 import React from "react";
 import wordCard from "../img/word-card.PNG";
 import portfolio from "../img/portfolio.PNG";
-import pokemon from "../img/pokemon.PNG";
 import worldCountries from "../img/world countries.PNG";
 import damso from "../img/damso.PNG";
 
@@ -92,9 +91,9 @@ const Project = () => {
               </p>
               You can :
               <ul>
+                <li>See the countries that I have been.</li>
                 <li>
-                  Discover interesting facts about different countries across
-                  the globe.
+                  Get information about different countries across the globe.
                 </li>
                 <li>Create your own imaginary countries.</li>
               </ul>
@@ -105,13 +104,10 @@ const Project = () => {
                     Front end: Responsive website built with React, Router and
                     Axios.
                   </li>
-                  <li>Back end: Server made with Strapi.</li>
-                </ul>
-              </div>
-              <div className="project-button">
+                  <div className="project-button">
                 <button>
                   <a
-                    href="https://github.com/serin0837/world-traveller"
+                    href="https://github.com/serin0837/country"
                     target="_blank"
                     className="projects"
                     rel="noopener noreferrer"
@@ -125,6 +121,36 @@ const Project = () => {
                 <button>
                   <a
                     href="#"
+                    target="_blank"
+                    className="projects"
+                    rel="noopener noreferrer"
+                  >
+                    <span className="code">&lt;</span>
+                    <i className="fa fa-laptop" aria-hidden="true"></i> live
+                    <span className="code">&#47;&gt;</span>
+                  </a>
+                </button>
+              </div>
+                  <li>Back end: Server made with Express and MongoDB.</li>
+                </ul>
+              </div>
+              <div className="project-button">
+                <button>
+                  <a
+                    href="https://github.com/serin0837/country-backend"
+                    target="_blank"
+                    className="projects"
+                    rel="noopener noreferrer"
+                  >
+                    <span className="code">&lt;</span>{" "}
+                    <i className="fa fa-github" aria-hidden="true"></i> code
+                    <span className="code">&#47;&gt;</span>
+                  </a>
+                </button>
+
+                <button>
+                  <a
+                    href="https://country-back.herokuapp.com/api/countries"
                     target="_blank"
                     className="projects"
                     rel="noopener noreferrer"
@@ -226,7 +252,7 @@ const Project = () => {
 
                 <button>
                   <a
-                    href="#"
+                    href="https://damsolearnkorean.netlify.app/"
                     target="_blank"
                     className="projects"
                     rel="noopener noreferrer"
