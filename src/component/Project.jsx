@@ -11,7 +11,7 @@ const Project = () => {
         <h2 className="projects-section-header">
           These are my projects and I am still working on.
         </h2>
-        <p className="explain">Live button is not working at the moment.</p>
+        
 
         <div className="projects-grid">
           <div className="each-project">
@@ -25,6 +25,7 @@ const Project = () => {
             <h3 className="project-title">Word Card</h3>
             <div className="project-explain">
               <p>A web application to help you memorize new words.</p>
+              <p className="explain">Live button is not working at the moment.</p>
               You can :
               <ul>
                 <li>
