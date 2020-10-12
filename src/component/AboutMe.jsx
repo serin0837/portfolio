@@ -6,7 +6,7 @@ const AboutMe = () => {
       <section id="about-me" className="about-me-section">
         <h2>My name is Serin.</h2>
         <a
-          href="https://docs.google.com/document/d/1_z816RemoA328WK8OxxGQGL1kZVdGSVGFd5MdmU2ZlE/edit?usp=sharing"
+          href="https://docs.google.com/document/d/12TGpPXQkGOU1cfBtmC4XNFPE106jL74V0LWUL5waWxo/edit?usp=sharing"
           download
         >
           &gt; <i>download my CV!</i>
