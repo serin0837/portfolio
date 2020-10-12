@@ -121,7 +121,7 @@ const Project = () => {
 
                 <button>
                   <a
-                    href="https://world-traveller.netlify.app/imaginarycountries"
+                    href="https://world-traveller.netlify.app/"
                     target="_blank"
                     className="projects"
                     rel="noopener noreferrer"
