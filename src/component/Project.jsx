@@ -25,7 +25,7 @@ const Project = () => {
             <h3 className="project-title">Word Card</h3>
             <div className="project-explain">
               <p>A web application to help you memorize new words.</p>
-              <p className="explain">Live button is not working at the moment.</p>
+              {/* <p className="explain">Live button is not working at the moment.</p> */}
               You can :
               <ul>
                 <li>
@@ -38,14 +38,8 @@ const Project = () => {
               <div className="project-tech">
                 <h4>Technologies</h4>
                 <ul>
-                  <li>Front end: Responsive website and built with React.</li>
-                  <li>
-                    Back end: Server written down in Express which handles API
-                    requests.
-                  </li>
-                </ul>
-              </div>
-              <div className="project-button">
+                  <li>Front end: Responsive website built with React, Router and Axios.</li>
+                  <div className="project-button">
                 <button>
                   <a
                     href="https://github.com/serin0837/word-list-app"
@@ -61,7 +55,38 @@ const Project = () => {
                 {/* live not work yet */}
                 <button>
                   <a
-                    href="https://github.com/serin0837/word-list-app"
+                    href="https://word-card.netlify.app/"
+                    target="_blank"
+                    className="projects"
+                    rel="noopener noreferrer"
+                  >
+                    <span className="code">&lt;</span>
+                    <i className="fa fa-laptop" aria-hidden="true"></i> live
+                    <span className="code">&#47;&gt;</span>
+                  </a>
+                </button>
+              </div>
+                  <li>
+                    Back end: Server written down in Express and MongoDB.
+                  </li>
+                </ul>
+              </div>
+              <div className="project-button">
+                <button>
+                  <a
+                    href="https://github.com/serin0837/word-backend"
+                    target="_blank"
+                    className="projects"
+                    rel="noopener noreferrer"
+                  >
+                    <span className="code">&lt;</span>
+                    <i className="fa fa-github" aria-hidden="true"></i> code
+                    <span className="code">&#47;&gt;</span>
+                  </a>
+                </button>
+                <button>
+                  <a
+                    href="https://word-back.herokuapp.com/api/words"
                     target="_blank"
                     className="projects"
                     rel="noopener noreferrer"
