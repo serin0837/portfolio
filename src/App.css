@@ -62,9 +62,9 @@ img {
   height: 70px;
 }
 
-.logo:hover {
+/* .logo:hover {
   box-shadow: 5px 5px 1px 1px black;
-}
+} */
 
 .navbar a {
   margin: 1rem;
@@ -74,7 +74,10 @@ img {
 }
 
 .navbar a:hover {
-  color: #f64375;
+  background-color: #09bc8a;
+  border: black 2px solid;
+  box-shadow: 5px 5px 1px 1px black;
+  color: black;
 }
 
 @media (max-width: 28.75em) {
