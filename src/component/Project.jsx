@@ -227,7 +227,7 @@ const Project = () => {
                 </button>
                 <button>
                   <a
-                    href="https://serin-jeon.heroku.com"
+                    href="https://serin-jeon.herokuapp.com"
                     target="_blank"
                     className="projects"
                     rel="noopener noreferrer"
