@@ -8,9 +8,9 @@ const Project = () => {
   return (
     <div className="main">
       <section className="projects-section">
-        <h2 className="projects-section-header">
+        <h1 className="projects-section-header">
           These are my projects.
-        </h2>
+        </h1>
         
 
         <div className="projects-grid">
@@ -22,7 +22,7 @@ const Project = () => {
                 alt="wordcard-project"
               />
             </div>
-            <h3 className="project-title">Word Card</h3>
+            <h2 className="project-title">Word Card</h2>
             <div className="project-explain">
               <p>A web application to help you memorize new words.</p>
               {/* <p className="explain">Live button is not working at the moment.</p> */}
@@ -36,7 +36,7 @@ const Project = () => {
                 <li>Create word cards in different languages.</li>
               </ul>
               <div className="project-tech">
-                <h4>Technologies</h4>
+                <h3>Technologies</h3>
                 <ul>
                   <li>Front end: Responsive website built with React, Router and Axios.</li>
                   <div className="project-button">
@@ -108,7 +108,7 @@ const Project = () => {
                 alt="world-countries"
               />
             </div>
-            <h3 className="project-title">World Countries</h3>
+            <h2 className="project-title">World Countries</h2>
             <div className="project-explain">
               <p>
                 A web application to give you information about different
@@ -124,7 +124,7 @@ const Project = () => {
                 <li>Create your own imaginary countries.</li>
               </ul>
               <div className="project-tech">
-                <h4>Technologies</h4>
+                <h3>Technologies</h3>
                 <ul>
                   <li>
                     Front end: Responsive website built with React, Router and
@@ -194,7 +194,7 @@ const Project = () => {
             <div>
               <img className="project-image" src={portfolio} alt="portfolio" />
             </div>
-            <h3 className="project-title">Serin Jeon</h3>
+            <h2 className="project-title">Serin Jeon</h2>
             <div className="project-explain">
               <p>
                 The personal portfolio website gives information about myself.
@@ -205,7 +205,7 @@ const Project = () => {
                 <li>Check my projects.</li>
               </ul>
               <div className="project-tech">
-                <h4>Technologies</h4>
+                <h3>Technologies</h3>
                 <ul>
                   <li>
                     Front end: Responsive website built with React and Router.
@@ -249,7 +249,7 @@ const Project = () => {
                 alt="teach-korean-website"
               />
             </div>
-            <h3 className="project-title">Damso: Learn Korean</h3>
+            <h2 className="project-title">Damso: Learn Korean</h2>
             <div className="project-explain">
               <p>A single web page about my Korean tutoring.</p>
               You can :
@@ -257,7 +257,7 @@ const Project = () => {
                 <li>Get information about my classes.</li>
               </ul>
               <div className="project-tech">
-                <h4>Technologies</h4>
+                <h3>Technologies</h3>
                 <ul>
                   <li>Front end: Responsive webpage with HTML and CSS.</li>
                 </ul>

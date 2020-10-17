@@ -2,6 +2,8 @@
 :root {
   --main-green: #09bc8a;
   --main-pink: #ead1ca;
+  --point-green: #0bebad;
+  --point-pink: #f64375;
 }
 .App {
   text-align: center;
@@ -41,19 +43,19 @@ img {
   top: 0;
   left: 0;
   width: 100%;
+  height: 70px;
   box-shadow: 0 2px 55px 3px rgba(0, 0, 0, 0.1);
   z-index: 10;
-  background-color: #eee;
+  background-color: whitesmoke;
 }
 
-.tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
+.navbar ul {
+  display: flex;
+  width: 100%;
+  list-style: none;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
 }
 
 .logo {
@@ -64,14 +66,15 @@ img {
   box-shadow: 5px 5px 1px 1px black;
 }
 
-.logo:hover.tooltiptext {
-  visibility: visible;
-}
-
 .navbar a {
   margin: 1rem;
   padding: 1rem;
   height: 30px;
+  color: #080808;
+}
+
+.navbar a:hover {
+  color: #f64375;
 }
 
 @media (max-width: 28.75em) {
@@ -90,7 +93,7 @@ img {
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 60vh;
+  height: 70vh;
 }
 
 .welcome-section h1 {
@@ -111,13 +114,13 @@ img {
   padding: 1rem 0;
   margin: 3rem;
   width: 15rem;
-  color: #09bc8a;
+  color: #00d294;
   font-weight: 500;
 }
 
 /* footer */
 footer {
-  height: 30vh;
+  height: 20vh;
   display: flex;
   /* position: fixed; */
   /* bottom: 0; */
@@ -128,7 +131,7 @@ footer {
 }
 
 footer p {
-  margin: 2rem;
+  margin: 1rem;
 }
 
 .footer .fa {
@@ -158,7 +161,7 @@ footer p {
   text-align: center;
 }
 
-.about-me-section h2 {
+.about-me-section h1 {
   color: var(--main-green);
   font-family: "Barlow Semi Condensed", sans-serif;
   font-size: 4.5rem;
@@ -173,7 +176,7 @@ footer p {
 .about-me-section p {
   font-size: 2rem;
   margin: 5rem 10rem 0rem 10rem;
-  text-align: justify;
+  text-align: start;
 }
 
 @media (max-width: 28.75em) {
@@ -245,7 +248,7 @@ footer p {
   text-align: left;
 }
 
-.project-explain h4 {
+.project-explain h3 {
   color: var(--main-green);
 }
 
@@ -259,7 +262,7 @@ footer p {
   list-style-position: inside;
 }
 
-.project-tech h4 {
+.project-tech h3 {
   margin: 2rem 0;
 }
 .each-project button {

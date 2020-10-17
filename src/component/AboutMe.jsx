@@ -4,7 +4,7 @@ const AboutMe = () => {
   return (
     <div className="main">
       <section id="about-me" className="about-me-section">
-        <h2>My name is Serin.</h2>
+        <h1>My name is Serin.</h1>
         <a
           href="https://docs.google.com/document/d/12TGpPXQkGOU1cfBtmC4XNFPE106jL74V0LWUL5waWxo/edit?usp=sharing"
           download
