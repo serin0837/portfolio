@@ -44,7 +44,7 @@ const Footer = () => {
 
       <div>
         <p>serin0837@icloud.com</p>
-        <p> Serin Jeon &copy;All Rights Reserved</p>
+        <p> &copy; 2020. Serin Jeon - all rights reserved</p>
       </div>
     </footer>
   );

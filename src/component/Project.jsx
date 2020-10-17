@@ -9,7 +9,7 @@ const Project = () => {
     <div className="main">
       <section className="projects-section">
         <h2 className="projects-section-header">
-          These are my projects and I am still working on.
+          These are my projects.
         </h2>
         
 
@@ -197,7 +197,7 @@ const Project = () => {
             <h3 className="project-title">Serin Jeon</h3>
             <div className="project-explain">
               <p>
-                The Personal portfolio website gives information about myself.
+                The personal portfolio website gives information about myself.
               </p>
               You can :
               <ul>

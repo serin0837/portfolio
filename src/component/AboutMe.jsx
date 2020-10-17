@@ -27,10 +27,10 @@ const AboutMe = () => {
           <span role="img" aria-label="emoji">
             🐤
           </span>
-          My interest in coding first started last year through a conversation I
+          My interest in coding first started at the end of 2019 through a conversation I
           had with a customer at my bar job who works in the IT industry. We
           talked about what coding was and how quickly the industry is growing.
-          Following that conversation, I started to do my own research into the
+          Following that conversation, I started to do my research into the
           field and joined meetups such as ‘code up’ and ‘code and stuff’. From
           there my interest grew and grew.
         </p>
@@ -45,13 +45,13 @@ const AboutMe = () => {
           youtube videos, studying via online classes, and practicing at home, I
           have found something that I am incredibly passionate about. Recently I
           joined a full-time boot camp, Northcoders. Over 2 months in boot camp,
-          I gained knowledge of fundamental javascript, Test-driven development,
-          Object-oriented programming, RESTful API and CRUD operations. In
+          I gained knowledge of fundamental javascript, test-driven development,
+          object-oriented programming, RESTful API and CRUD operations. In
           Northcoders, our focus of study was front-end development so since
           graduating my focus has been on learning backend and studying
-          Responsive web design with Freecodecamp, where I got my certification.
-          I am also doing the 100 days of code challenge on twitter.(Check to
-          see my journey in twitter!) Now I am looking for my next journey as a
+          responsive web design with Freecodecamp, where I got my certification.
+          I am also doing the 100 days of code challenge on twitter. (Check to
+          see my journey in Twitter!) Now I am looking for my next journey as a
           developer.
         </p>
       </section>

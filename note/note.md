@@ -37,3 +37,16 @@ width: 300px;
 <body>
 
 hover 할떄 가로로 길이 길어짐! 조아
+
+- 17.10.20
+  copy right
+
+저작권 올바른 표기 예
+
+Copyright 2021. 주식회사명 inc. all rights reserved.
+
+Copyright 2021. 유한회사명 Co., Ltd. all rights reserved.
+
+© 2021. 개인회사명 Co. all rights reserved.
+
+(c) 2021. 주식회사명 Inc. all rights reserved.
