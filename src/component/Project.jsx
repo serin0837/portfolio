@@ -3,6 +3,7 @@ import wordCard from "../img/word-card.PNG";
 import portfolio from "../img/portfolio.PNG";
 import worldCountries from "../img/world countries.PNG";
 import damso from "../img/damso.PNG";
+import dice from "../img/dice.PNG"
 
 const Project = () => {
   return (
@@ -291,7 +292,59 @@ const Project = () => {
               </div>
             </div>
           </div>
+          <div className="each-project">
+            <div>
+              <img
+                className="project-image"
+                src={dice}
+                alt="dice-game-website"
+              />
+            </div>
+            <h2 className="project-title">ChoHan Bakuchi</h2>
+            <div className="project-explain">
+              <p>A single web page to play Japanese dice game. Made with pair-programming with my friend.</p>
+              You can :
+              <ul>
+                <li>Play Japanese dice game.</li>
+              </ul>
+              <div className="project-tech">
+                <h3>Technologies</h3>
+                <ul>
+                  <li>Front end: Webpage with HTML, CSS and Javascript.</li>
+                </ul>
+              </div>
+              <div className="project-button">
+                <button>
+                  <a
+                    href="https://github.com/Kimovi/Chohan_Bakuchi"
+                    target="_blank"
+                    className="projects"
+                    rel="noopener noreferrer"
+                  >
+                    <span className="code">&lt;</span>
+                    <i className="fa fa-github" aria-hidden="true"></i> code
+                    <span className="code">&#47;&gt;</span>
+                  </a>
+                </button>
+
+                <button>
+                  <a
+                    href="https://chohan-bakuchi.netlify.app/"
+                    target="_blank"
+                    className="projects"
+                    rel="noopener noreferrer"
+                  >
+                    <span className="code">&lt;</span>
+                    <i className="fa fa-laptop" aria-hidden="true"></i> live
+                    <span className="code">&#47;&gt;</span>
+                  </a>
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
+
+ 
       </section>
     </div>
   );

@@ -1,10 +1,7 @@
 # My first portfolio website
 
-This is my first portfolio website with React.js.
+This is my first portfolio website with React
 
-# Install
+# Live
 
-1. `npm i`
-2. `npm start`
-
-(still on developing )
+(http://serin-jeon.herokuapp.com/)
