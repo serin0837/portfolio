@@ -4,6 +4,7 @@ import portfolio from "../img/portfolio.PNG";
 import worldCountries from "../img/world countries.PNG";
 import damso from "../img/damso.PNG";
 import dice from "../img/dice.PNG"
+import japanese from "../img/japanese.PNG"
 
 const Project = () => {
   return (
@@ -342,9 +343,61 @@ const Project = () => {
               </div>
             </div>
           </div>
-        </div>
 
- 
+          <div className="each-project">
+            <div>
+              <img
+                className="project-image"
+                src={japanese}
+                alt="japanese-word-memorize-webpage"
+              />
+            </div>
+            <h2 className="project-title">Learn Japanese</h2>
+            <div className="project-explain">
+              <p>A single web page to memorize Japanese words.</p>
+              You can :
+              <ul>
+                <li>Add a word that you want to memorize.</li>
+                <li>Delete a word that you don't want memorize.</li>
+                <li>Update a word that want to edit.</li>
+              </ul>
+              <div className="project-tech">
+                <h3>Technologies</h3>
+                <ul>
+                  <li>Front end: Responsive webpage with HTML, CSS, Bootstrap and Javascript.</li>
+                </ul>
+              </div>
+              <div className="project-button">
+                <button>
+                  <a
+                    href="https://github.com/serin0837/Learn-Japanese"
+                    target="_blank"
+                    className="projects"
+                    rel="noopener noreferrer"
+                  >
+                    <span className="code">&lt;</span>
+                    <i className="fa fa-github" aria-hidden="true"></i> code
+                    <span className="code">&#47;&gt;</span>
+                  </a>
+                </button>
+
+                <button>
+                  <a
+                    href="https://learn-japanese.netlify.app/"
+                    target="_blank"
+                    className="projects"
+                    rel="noopener noreferrer"
+                  >
+                    <span className="code">&lt;</span>
+                    <i className="fa fa-laptop" aria-hidden="true"></i> live
+                    <span className="code">&#47;&gt;</span>
+                  </a>
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
       </section>
     </div>
   );
