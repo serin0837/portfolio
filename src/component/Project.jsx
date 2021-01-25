@@ -1,402 +1,132 @@
 import React from "react";
-import wordCard from "../img/word-card.PNG";
 import portfolio from "../img/portfolio.PNG";
 import worldCountries from "../img/world countries.PNG";
 import damso from "../img/damso.PNG";
 import dice from "../img/dice.PNG"
 import japanese from "../img/japanese.PNG"
+import ProjectCard from "./ProjectCard"
+import wordCard from "../img/word-card.PNG";
+import kanji from "../img/kanji.PNG"
 
 const Project = () => {
+  const projectDatas = [
+    {title : "Kanjiru",
+    image : kanji,
+    mainP : "A web application to help you memorize Japanese Kanji characters. We implemented third party API",
+    listP : [
+      "Can get information about Kanji characters by different level",
+    ],
+    frontendTech : "Responsive web application built with React, Router and Axios.",
+    frontendLive: "https://kanji-ru.netlify.app",
+    frontendCode:"https://github.com/Kimovi/Kanji_ru",
+    backendTech: "",
+    backendLive: "",
+    backendCode: "",
+    },
+    //1
+    {title : "Word Card",
+    image : wordCard,
+    mainP : "A web application to help you memorize new words.",
+    listP : [
+      "Create your own word cards for new words which you want to memorize.",
+      "Delete your word cards that you have memorized.",
+      "Create word cards in different languages."
+    ],
+    frontendTech : "Responsive website built with React, Router and Axios.",
+    frontendLive: "https://word-card.netlify.app/",
+    frontendCode:"https://github.com/serin0837/word-list-app",
+    backendTech: "Server written down in Express and MongoDB.",
+    backendLive: "https://word-back.herokuapp.com/api/words",
+    backendCode: "https://github.com/serin0837/word-backend",
+    },
+    //2
+    {title : "World Countries",
+    image : worldCountries,
+    mainP : " A web application to give you information about different countries in the world. This application combines my passion for coding and travelling.",
+    listP : [
+      "See the countries that I have been.",
+      "Get information about different countries across the globe.",
+      "Create your own imaginary countries.",
+      "Delete your imaginary countries.",
+      "Update information about your imaginary countries."
+    ],
+    frontendTech : "Responsive website built with React, Router and Axios.",
+    frontendCode: "https://github.com/serin0837/country",
+    frontendLive: "https://world-traveller.netlify.app/",
+    backendTech: "Server made with Express and MongoDB.",
+    backendCode: "https://github.com/serin0837/country-backend",
+    backendLive: "https://country-back.herokuapp.com/api/countries",
+    },
+
+    //3
+    {title : "Serin Jeon",
+    image : portfolio,
+    mainP : "The personal portfolio website gives information about myself.",
+    listP : [
+      "Get to know me",
+      "Check my projects.",
+    ],
+    frontendTech : "Responsive web application built with React and Router.",
+    frontendCode: "https://github.com/serin0837/portfolio",
+    frontendLive: "https://serin-jeon.herokuapp.com",
+    backendTech: "Server made with Express and MongoDB.",
+    backendCode: null,
+    backendLive: null,
+    },
+    //4
+    {title : "Damso: Learn Korean",
+    image : damso,
+    mainP : "A single web page about my Korean tutoring.",
+    listP : [
+      "Get information about my Korean classes.",
+    ],
+    frontendTech : "Responsive webpage with HTML and CSS.",
+    frontendCode: "https://github.com/serin0837/damso_learnkorean",
+    frontendLive: "https://damsolearnkorean.netlify.app/",
+    backendTech: "Connected to Firebase DB to get email information",
+    backendCode: null,
+    backendLive: null,
+    },
+    //5
+    {title : "ChoHan Bakuchi",
+    image : dice,
+    mainP : "A single web page to play Japanese dice game. Made with pair-programming with my friend.",
+    listP : [
+      "Play Japanese dice game.",
+    ],
+    frontendTech : "Webpage with HTML, CSS and Javascript.",
+    frontendCode: "https://github.com/Kimovi/Chohan_Bakuchi",
+    frontendLive: "https://chohan-bakuchi.netlify.app/",
+    backendTech: null,
+    backendCode: null,
+    backendLive: null,
+    },
+    //6
+    {title : "Learn Japanese",
+    image : japanese,
+    mainP : "A single web page to memorize Japanese words.",
+    listP : [
+      "Add a word that you want to memorize.",
+      "Delete a word that you don't want memorize.",
+      "Update a word that want to edit."
+    ],
+    frontendTech : "Responsive webpage with HTML, CSS, Bootstrap and Javascript.",
+    frontendCode: "https://github.com/serin0837/Learn-Japanese",
+    frontendLive: "https://learn-japanese.netlify.app/",
+    backendTech: null,
+    backendCode: null,
+    backendLive: null,
+    },
+
+  ]
   return (
     <div className="main">
       <section className="projects-section">
         <h1 className="projects-section-header">
           These are my projects.
         </h1>
-        
-
         <div className="projects-grid">
-          <div className="each-project">
-            <div>
-              <img
-                className="project-image"
-                src={wordCard}
-                alt="wordcard-project"
-              />
-            </div>
-            <h2 className="project-title">Word Card</h2>
-            <div className="project-explain">
-              <p>A web application to help you memorize new words.</p>
-              {/* <p className="explain">Live button is not working at the moment.</p> */}
-              You can :
-              <ul>
-                <li>
-                  Create your own word cards for new words which you want to
-                  memorize.
-                </li>
-                <li>Delete your word cards that you have memorized.</li>
-                <li>Create word cards in different languages.</li>
-              </ul>
-              <div className="project-tech">
-                <h3>Technologies</h3>
-                <ul>
-                  <li>Front end: Responsive website built with React, Router and Axios.</li>
-                  <div className="project-button">
-                <button>
-                  <a
-                    href="https://github.com/serin0837/word-list-app"
-                    target="_blank"
-                    className="projects"
-                    rel="noopener noreferrer"
-                  >
-                    <span className="code">&lt;</span>
-                    <i className="fa fa-github" aria-hidden="true"></i> code
-                    <span className="code">&#47;&gt;</span>
-                  </a>
-                </button>
-                {/* live not work yet */}
-                <button>
-                  <a
-                    href="https://word-card.netlify.app/"
-                    target="_blank"
-                    className="projects"
-                    rel="noopener noreferrer"
-                  >
-                    <span className="code">&lt;</span>
-                    <i className="fa fa-laptop" aria-hidden="true"></i> live
-                    <span className="code">&#47;&gt;</span>
-                  </a>
-                </button>
-              </div>
-                  <li>
-                    Back end: Server written down in Express and MongoDB.
-                  </li>
-                </ul>
-              </div>
-              <div className="project-button">
-                <button>
-                  <a
-                    href="https://github.com/serin0837/word-backend"
-                    target="_blank"
-                    className="projects"
-                    rel="noopener noreferrer"
-                  >
-                    <span className="code">&lt;</span>
-                    <i className="fa fa-github" aria-hidden="true"></i> code
-                    <span className="code">&#47;&gt;</span>
-                  </a>
-                </button>
-                <button>
-                  <a
-                    href="https://word-back.herokuapp.com/api/words"
-                    target="_blank"
-                    className="projects"
-                    rel="noopener noreferrer"
-                  >
-                    <span className="code">&lt;</span>
-                    <i className="fa fa-laptop" aria-hidden="true"></i> live
-                    <span className="code">&#47;&gt;</span>
-                  </a>
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <div className="each-project">
-            <div>
-              <img
-                className="project-image"
-                src={worldCountries}
-                alt="world-countries"
-              />
-            </div>
-            <h2 className="project-title">World Countries</h2>
-            <div className="project-explain">
-              <p>
-                A web application to give you information about different
-                countries in the world. This application combines my passion for
-                coding and travelling.
-              </p>
-              You can :
-              <ul>
-                <li>See the countries that I have been.</li>
-                <li>
-                  Get information about different countries across the globe.
-                </li>
-                <li>Create your own imaginary countries.</li>
-              </ul>
-              <div className="project-tech">
-                <h3>Technologies</h3>
-                <ul>
-                  <li>
-                    Front end: Responsive website built with React, Router and
-                    Axios.
-                  </li>
-                  <div className="project-button">
-                <button>
-                  <a
-                    href="https://github.com/serin0837/country"
-                    target="_blank"
-                    className="projects"
-                    rel="noopener noreferrer"
-                  >
-                    <span className="code">&lt;</span>{" "}
-                    <i className="fa fa-github" aria-hidden="true"></i> code
-                    <span className="code">&#47;&gt;</span>
-                  </a>
-                </button>
-
-                <button>
-                  <a
-                    href="https://world-traveller.netlify.app/"
-                    target="_blank"
-                    className="projects"
-                    rel="noopener noreferrer"
-                  >
-                    <span className="code">&lt;</span>
-                    <i className="fa fa-laptop" aria-hidden="true"></i> live
-                    <span className="code">&#47;&gt;</span>
-                  </a>
-                </button>
-              </div>
-                  <li>Back end: Server made with Express and MongoDB.</li>
-                </ul>
-              </div>
-              <div className="project-button">
-                <button>
-                  <a
-                    href="https://github.com/serin0837/country-backend"
-                    target="_blank"
-                    className="projects"
-                    rel="noopener noreferrer"
-                  >
-                    <span className="code">&lt;</span>{" "}
-                    <i className="fa fa-github" aria-hidden="true"></i> code
-                    <span className="code">&#47;&gt;</span>
-                  </a>
-                </button>
-
-                <button>
-                  <a
-                    href="https://country-back.herokuapp.com/api/countries"
-                    target="_blank"
-                    className="projects"
-                    rel="noopener noreferrer"
-                  >
-                    <span className="code">&lt;</span>
-                    <i className="fa fa-laptop" aria-hidden="true"></i> live
-                    <span className="code">&#47;&gt;</span>
-                  </a>
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <div className="each-project">
-            <div>
-              <img className="project-image" src={portfolio} alt="portfolio" />
-            </div>
-            <h2 className="project-title">Serin Jeon</h2>
-            <div className="project-explain">
-              <p>
-                The personal portfolio website gives information about myself.
-              </p>
-              You can :
-              <ul>
-                <li>Get to know me.</li>
-                <li>Check my projects.</li>
-              </ul>
-              <div className="project-tech">
-                <h3>Technologies</h3>
-                <ul>
-                  <li>
-                    Front end: Responsive website built with React and Router.
-                  </li>
-                </ul>
-              </div>
-              <div className="project-button">
-                <button>
-                  <a
-                    href="https://github.com/serin0837/portfolio"
-                    target="_blank"
-                    className="projects"
-                    rel="noopener noreferrer"
-                  >
-                    <span className="code">&lt;</span>
-                    <i className="fa fa-github" aria-hidden="true"></i> code
-                    <span className="code">&#47;&gt;</span>
-                  </a>
-                </button>
-                <button>
-                  <a
-                    href="https://serin-jeon.herokuapp.com"
-                    target="_blank"
-                    className="projects"
-                    rel="noopener noreferrer"
-                  >
-                    <span className="code">&lt;</span>
-                    <i className="fa fa-laptop" aria-hidden="true"></i> live
-                    <span className="code">&#47;&gt;</span>
-                  </a>
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <div className="each-project">
-            <div>
-              <img
-                className="project-image"
-                src={damso}
-                alt="teach-korean-website"
-              />
-            </div>
-            <h2 className="project-title">Damso: Learn Korean</h2>
-            <div className="project-explain">
-              <p>A single web page about my Korean tutoring.</p>
-              You can :
-              <ul>
-                <li>Get information about my classes.</li>
-              </ul>
-              <div className="project-tech">
-                <h3>Technologies</h3>
-                <ul>
-                  <li>Front end: Responsive webpage with HTML and CSS.</li>
-                </ul>
-              </div>
-              <div className="project-button">
-                <button>
-                  <a
-                    href="https://github.com/serin0837/damso_learnkorean"
-                    target="_blank"
-                    className="projects"
-                    rel="noopener noreferrer"
-                  >
-                    <span className="code">&lt;</span>
-                    <i className="fa fa-github" aria-hidden="true"></i> code
-                    <span className="code">&#47;&gt;</span>
-                  </a>
-                </button>
-
-                <button>
-                  <a
-                    href="https://damsolearnkorean.netlify.app/"
-                    target="_blank"
-                    className="projects"
-                    rel="noopener noreferrer"
-                  >
-                    <span className="code">&lt;</span>
-                    <i className="fa fa-laptop" aria-hidden="true"></i> live
-                    <span className="code">&#47;&gt;</span>
-                  </a>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div className="each-project">
-            <div>
-              <img
-                className="project-image"
-                src={dice}
-                alt="dice-game-website"
-              />
-            </div>
-            <h2 className="project-title">ChoHan Bakuchi</h2>
-            <div className="project-explain">
-              <p>A single web page to play Japanese dice game. Made with pair-programming with my friend.</p>
-              You can :
-              <ul>
-                <li>Play Japanese dice game.</li>
-              </ul>
-              <div className="project-tech">
-                <h3>Technologies</h3>
-                <ul>
-                  <li>Front end: Webpage with HTML, CSS and Javascript.</li>
-                </ul>
-              </div>
-              <div className="project-button">
-                <button>
-                  <a
-                    href="https://github.com/Kimovi/Chohan_Bakuchi"
-                    target="_blank"
-                    className="projects"
-                    rel="noopener noreferrer"
-                  >
-                    <span className="code">&lt;</span>
-                    <i className="fa fa-github" aria-hidden="true"></i> code
-                    <span className="code">&#47;&gt;</span>
-                  </a>
-                </button>
-
-                <button>
-                  <a
-                    href="https://chohan-bakuchi.netlify.app/"
-                    target="_blank"
-                    className="projects"
-                    rel="noopener noreferrer"
-                  >
-                    <span className="code">&lt;</span>
-                    <i className="fa fa-laptop" aria-hidden="true"></i> live
-                    <span className="code">&#47;&gt;</span>
-                  </a>
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <div className="each-project">
-            <div>
-              <img
-                className="project-image"
-                src={japanese}
-                alt="japanese-word-memorize-webpage"
-              />
-            </div>
-            <h2 className="project-title">Learn Japanese</h2>
-            <div className="project-explain">
-              <p>A single web page to memorize Japanese words.</p>
-              You can :
-              <ul>
-                <li>Add a word that you want to memorize.</li>
-                <li>Delete a word that you don't want memorize.</li>
-                <li>Update a word that want to edit.</li>
-              </ul>
-              <div className="project-tech">
-                <h3>Technologies</h3>
-                <ul>
-                  <li>Front end: Responsive webpage with HTML, CSS, Bootstrap and Javascript.</li>
-                </ul>
-              </div>
-              <div className="project-button">
-                <button>
-                  <a
-                    href="https://github.com/serin0837/Learn-Japanese"
-                    target="_blank"
-                    className="projects"
-                    rel="noopener noreferrer"
-                  >
-                    <span className="code">&lt;</span>
-                    <i className="fa fa-github" aria-hidden="true"></i> code
-                    <span className="code">&#47;&gt;</span>
-                  </a>
-                </button>
-
-                <button>
-                  <a
-                    href="https://learn-japanese.netlify.app/"
-                    target="_blank"
-                    className="projects"
-                    rel="noopener noreferrer"
-                  >
-                    <span className="code">&lt;</span>
-                    <i className="fa fa-laptop" aria-hidden="true"></i> live
-                    <span className="code">&#47;&gt;</span>
-                  </a>
-                </button>
-              </div>
-            </div>
-          </div>
-
+        {projectDatas.map(projectData => <ProjectCard projectData = {projectData} /> )}
         </div>
       </section>
     </div>
