@@ -53,10 +53,12 @@ const AboutMe = () => {
           (Check to see my journey on Twitter!) During this challenge, I get to know a lot of like minded people and have been inspired greatly by them. 
           January 2021, I started another journey with QA, which is UK's leading tech skills organisation. 
           Luckily I received funds from GMCA after successfully completing pre learning. So far I have been learning about Agile methods, 
-          Cloud computing with Google Cloud Platform, CI/ CD, MySQL, Python and Flask. I am building my first project in QA at the moment with the technologies that I have learned so far. Next, I am looking for my next journey as a full stack developer.
+          Cloud computing with Google Cloud Platform, CI/ CD, MySQL, Python and Flask. I am building my first project in QA at the moment with the technologies that I have learned so far. 
+          Next, I am looking for my next journey as a full stack developer.
+          <br></br><br></br>
+          <span>🥰</span>
+          I also love running, gym, rice, learning new languages, traveling, meditation and writing my diary. 
           </p>
-
-
       </section>
     </div>
   );
