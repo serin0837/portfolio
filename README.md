@@ -1,7 +1,9 @@
-# My first portfolio website
+## Description
 
-This is my first portfolio website with React
+My portfolio website to show all of my projects and my passion for full-stack development.
 
-# Live
+## Technologies
 
-(http://serin-jeon.herokuapp.com/)
+FrontEnd: React and CSS.
+
+- [🔗Live](http://serin-jeon.herokuapp.com/)

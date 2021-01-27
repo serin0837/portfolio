@@ -5,12 +5,6 @@ const AboutMe = () => {
     <div className="main">
       <section id="about-me" className="about-me-section">
         <h1>My name is Serin.</h1>
-        <a
-          href="https://drive.google.com/file/d/1XbxNp74OGQPgTmai5cHZytZYo-nnH5Gz/view?usp=sharing"
-          download
-        >
-          &gt; <i>download my CV!</i>
-        </a>
         <p id="background">
           <span role="img" aria-label="emoji">
             🐣
@@ -32,7 +26,8 @@ const AboutMe = () => {
           talked about what coding was and how quickly the industry is growing.
           Following that conversation, I started to do my research into the
           field and joined meetups such as ‘code up’ and ‘code and stuff’. From
-          there my interest grew and grew.
+          there my interest grew and grew. 
+          I met amazing people at meet ups and received a lot of help from mentors and I want to be a mentor soon so that I can help people who want to be in the tech industry.
         </p>
 
         <p id="career">
@@ -43,17 +38,25 @@ const AboutMe = () => {
           had very little knowledge on. However, after spending time speaking
           with people from the industry, attending meetups, watching hours of
           youtube videos, studying via online classes, and practicing at home, I
-          have found something that I am incredibly passionate about. Recently I
-          joined a full-time boot camp, Northcoders. Over 2 months in boot camp,
-          I gained knowledge of fundamental javascript, test-driven development,
-          object-oriented programming, RESTful API and CRUD operations. In
-          Northcoders, our focus of study was front-end development so since
-          graduating my focus has been on learning backend and studying
-          responsive web design with Freecodecamp, where I got my certification.
-          I am also doing the 100 days of code challenge on twitter. (Check to
-          see my journey in Twitter!) Now I am looking for my next journey as a
-          developer.
-        </p>
+          have found something that I am incredibly passionate about. April 2019, I
+          joined a full-time boot camp, Northcoders. Joining boot camp was not easy decision to make 
+          but I was certain that this was the path that I wanted to take. In boot camp,
+          I gained knowledge of fundamental JavaScript, test-driven development,
+          object-oriented programming, RESTful API and CRUD operations and React.<br></br><br></br>
+          <span role="img" aria-label="emoji">
+            🐉🐉
+          </span>
+          In Northcoders, our focus of the study was front-end development so since graduating my focus has been on learning backend. 
+          When I start studying backend, it was daunting as I was self-studying but I have managed to make MERN stack applications. 
+          The more I learn, the more my passion grows. 
+          I also finished doing the 100 days of code challenge on Twitter after graduating from Northcoders to keep my routine of studying from 9 to 5. 
+          (Check to see my journey on Twitter!) During this challenge, I get to know a lot of like minded people and have been inspired greatly by them. 
+          January 2021, I started another journey with QA, which is UK's leading tech skills organisation. 
+          Luckily I received funds from GMCA after successfully completing pre learning. So far I have been learning about Agile methods, 
+          Cloud computing with Google Cloud Platform, CI/ CD, MySQL, Python and Flask. I am building my first project in QA at the moment with the technologies that I have learned so far. Next, I am looking for my next journey as a full stack developer.
+          </p>
+
+
       </section>
     </div>
   );

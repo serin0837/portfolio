@@ -12,25 +12,26 @@ const Project = () => {
   const projectDatas = [
     {title : "Kanjiru",
     image : kanji,
-    mainP : "A web application to help you memorize Japanese Kanji characters. We implemented third party API",
+    mainP : "A web application to help you memorize Japanese Kanji character with the implementation of third party API.",
     listP : [
-      "Can get information about Kanji characters by different level",
+      "Can get information about Kanji characters with different level.",
     ],
-    frontendTech : "Responsive web application built with React, Router and Axios.",
+    frontendTech : "Responsive web application built with React, Axios and Bootstrap.",
     frontendLive: "https://kanji-ru.netlify.app",
     frontendCode:"https://github.com/Kimovi/Kanji_ru",
-    backendTech: "",
+    backendTech: "Currently working on developing backend.",
     backendLive: "",
     backendCode: "",
     },
     //1
     {title : "Word Card",
     image : wordCard,
-    mainP : "A web application to help you memorize new words.",
+    mainP : "A web application to help you memorize new words. This application combines my passion for learning languages and coding.",
     listP : [
-      "Create your own word cards for new words which you want to memorize.",
+      "Create your word cards for new words that you want to memorize.",
       "Delete your word cards that you have memorized.",
-      "Create word cards in different languages."
+      "Create languages in aside board.",
+      "Delete languages in aside board."
     ],
     frontendTech : "Responsive website built with React, Router and Axios.",
     frontendLive: "https://word-card.netlify.app/",
@@ -66,10 +67,10 @@ const Project = () => {
       "Get to know me",
       "Check my projects.",
     ],
-    frontendTech : "Responsive web application built with React and Router.",
+    frontendTech : "Responsive web application built with React, Router and CSS.",
     frontendCode: "https://github.com/serin0837/portfolio",
     frontendLive: "https://serin-jeon.herokuapp.com",
-    backendTech: "Server made with Express and MongoDB.",
+    backendTech: "",
     backendCode: null,
     backendLive: null,
     },
@@ -80,17 +81,17 @@ const Project = () => {
     listP : [
       "Get information about my Korean classes.",
     ],
-    frontendTech : "Responsive webpage with HTML and CSS.",
+    frontendTech : "Responsive webpage with HTML and CSS. Connected to Firebase DB to receive email information",
     frontendCode: "https://github.com/serin0837/damso_learnkorean",
     frontendLive: "https://damsolearnkorean.netlify.app/",
-    backendTech: "Connected to Firebase DB to get email information",
+    backendTech: "",
     backendCode: null,
     backendLive: null,
     },
     //5
     {title : "ChoHan Bakuchi",
     image : dice,
-    mainP : "A single web page to play Japanese dice game. Made with pair-programming with my friend.",
+    mainP : "A single web page to play a Japanese dice game. Made with pair-programming with my friend.",
     listP : [
       "Play Japanese dice game.",
     ],
@@ -104,7 +105,7 @@ const Project = () => {
     //6
     {title : "Learn Japanese",
     image : japanese,
-    mainP : "A single web page to memorize Japanese words.",
+    mainP : "A single web page to memorize Japanese words. Made with pair-programming.",
     listP : [
       "Add a word that you want to memorize.",
       "Delete a word that you don't want memorize.",
